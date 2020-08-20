@@ -1,0 +1,237 @@
+/*Global*/
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 10px;
+    font-family: 'SF Pro Display' , sans-serif;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+}
+
+/*nav*/
+.container{
+    max-width: 100rem;
+    margin: 0 auto;
+    padding: 0 2.2rem;
+}
+
+header{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 9999;
+    height: 4.3rem;
+    background-color: rgba(0, 0, 0, .92);
+    font-size: 1rem;
+}
+
+.nav-list{
+    list-style:none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 -1rem;
+    padding: 0 1.3rem;
+}
+
+.nav-link{
+    font-size: 1.4rem;
+    color: #f5f5f7;
+    padding: 0 1rem;
+    transition: opacity .5s;
+}
+
+.nav-link:hover{
+    color: #fff;
+    opacity: .7;
+}
+
+.nav-link-apple{
+    width: 1.6rem;
+    height: 4rem;
+    background: url("images/nav_icon/apple.svg") center no-repeat;
+}
+.nav-link-search{
+    width: 1.6rem;
+    height: 4rem;
+    background: url("images/nav_icon/search.svg") center no-repeat;
+}
+.nav-link-bag{
+    width: 1.4rem;
+    height: 4rem;
+    background: url("images/nav_icon/bag.svg") center no-repeat;
+}
+
+/*nav-sub*/
+
+.sub {
+    opacity: .9;
+    width: 100%;
+    position: absolute;
+    top: 4.3rem;
+    z-index: 2;
+    height: 4.3rem;
+    background-color: rgba(255, 255, 255, 0.92);
+    font-size: 1rem;
+}
+
+.sub .sub-container{
+    max-width: 980px;
+    margin: auto;
+    box-sizing: content-box;
+}
+
+.sub-container{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.sub-list{
+    list-style:none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 -1rem;
+    padding: 0 2.2rem;
+    line-height: 61px;
+}
+
+.sub-list-left{
+    float: left;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: .009rem;
+}
+
+.sub-list-right{
+    float: right;
+    font-size: 12px;
+}
+
+.sub-link{
+    color: #000000;
+    padding: 0 1.5rem;
+    transition: opacity .5s;
+}
+
+.sub-link:hover{
+    border-bottom:solid 1px #000000;
+}
+
+/*signin*/
+.signin{
+    background: url("images/ID/signin.jpg");
+    width: 100%;
+    margin-top: 10rem;
+}
+
+.title{
+    color: #fff;
+    text-align: center;
+}
+
+.title-heading{
+    padding-top: 12rem;
+    font-size: 5.6rem;
+    line-height: 1.07143;
+    letter-spacing: -.005rem;
+}
+
+.title-sub-heading{
+    font-size: 2.1rem;
+    margin-top: 1.5rem;
+    letter-spacing: .008rem;
+    font-weight: 400;
+}
+
+.text-id{
+    font-size: 1.8rem;
+    width: 30%;
+    border: 1px solid #fff;
+    border-radius: 7px;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 1.5rem;
+}
+
+.text-id:focus{
+    border-color: dodgerblue;
+    /*box-shadow: 0 0 8px 0 dodgerblue;*/ 
+}
+
+.checkbox{
+    color: #fff;
+    margin-top: 7rem;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.forgot-link{
+    padding-top: 12rem;
+}
+.id-password{
+    color: #fff;
+    font-size: 1.3rem;
+    display: inline-block;/*?*/
+}
+
+.id-password:hover{
+    border-bottom: 1px solid #fff;
+}
+
+/*aid signin*/
+
+.aidsignin{
+    background: url("images/ID/app-icon.jpg") center no-repeat;
+}
+
+.title-dark{
+    color: #000;
+}
+
+.title-head{
+    font-size: 3.7rem;
+    padding-top:7rem;
+}
+
+.title-sub-head{
+    font-size: 1.7rem;
+    margin-top: 1rem;
+}
+
+.button{
+    color: #2384df;
+    font-size: 1.7rem;
+    display: inline-block;
+}
+
+.button:hover{
+    border-bottom: 1px solid rgb(1, 93, 185);
+}
+
+.sub-link-bottom{
+    text-align: center;
+    margin-top: 16rem;
+}
+
+
+
+
+/*전체 밑그림*/
+.hero{
+    height: 54rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: .6rem solid #fff;
+    border-bottom: .6rem solid #fff;
+}

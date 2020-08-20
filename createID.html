@@ -1,0 +1,174 @@
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>Create Your Apple ID </title>
+    <link rel="stylesheet" href="stylesID.css">
+</head>
+
+<body>
+    <!--navigation-->
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <!--모바일용 nav-->
+                <ul class="nav-list nav-list-mobile">
+                    <li class="nav-item">
+                        <div class="mobile-menu">
+                            <span class="line line-top"></span>
+                            <span class="line line-bottom"></span>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link nav-link-apple"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link nav-link-bag"></a>
+                    </li>
+                </ul> 
+                <!--web사이트 large nav-->               
+                <ul class="nav-list">
+                    <li class="nav-item nav-item-hidden">
+                        <a href="index.html" class="nav-link nav-link-apple"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">iPhone</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="signin.html" class="nav-link">Account</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Forum</a>
+                    </li>
+                    <li class="nav-item nav-item-hidden">
+                        <a href="#" class="nav-link nav-link-search"></a>
+                    </li>
+                    <li class="nav-item nav-item-hidden">
+                        <a href="#" class="nav-link nav-link-bag"></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+        <!--nav-sub-->
+    <section class="sub">   
+        <div class="sub-container">
+            <div class="sub-list sub-list-left">
+                <div class="company-name">Apple ID</div>
+            </div>
+            <ul class="sub-list sub-list-right">    
+                <li class="sub-item">
+                    <a href="signin.html" class="sub-link">Sign In</a>
+                </li>
+                <li class="sub-item">
+                    <a href="createID.html" class="sub-link">Create Your Apple ID</a>
+                </li>
+                <li class="sub-item">
+                    <a href="#" class="sub-link">FAQ</a>
+                </li> 
+            </ul> 
+        </div>
+    </section>
+
+    <section class="head">
+        <div class="head-heading">
+            <div class="title-heading">Create Your Apple ID</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="flow">
+        <div class="intro">
+            <div class="intro-text">
+                <p>One Apple ID is all you need to access all Apple services.</p>
+            </div>    
+            <div class="intro-link">
+                You already have an Apple ID?<a href="https://www.w3.org/TR/html5/" class="link" target="_blank" title="find speicification">Find it here></a>       
+            </div>
+        </div>
+        <!--flow 시작-->
+        <div class="flow-section">
+        <!--이름나라생일-->    
+            <div class="container-ncb">
+                <div class="container-name">
+                    <input type="text"  class="first-name" placeholder="first name"></div>
+                    <input type="text"  class="last-name" placeholder="last name"></div>
+                </div>
+                <div class="container-country">COUNTRY/REGION</div>
+                    <div class="country-form">
+                    <select name="country">
+                        <option value="Canada">Canada</option>
+                        <option value="Korea">Korea</option>
+                    </select>
+                </div>
+                <div class="container-birth">
+                    <input type="text" class="birth" placeholder="date of birth">
+                </div>  
+            </div>
+        <!--아이디랑 비번-->
+            <div class="container-ip">
+                <div class="newid">
+                    <input type="text" class="id" placeholder="name@example.com">
+                    <div class="id-info">This will be your new Apple ID.
+                    </div>
+                </div>        
+                <div class="newpassword">
+                    <input type="text" class="password" placeholder="password">
+                </div>
+                <div class="confirm">
+                    <input type="text" class="confirm" placeholder="confirm password">
+                </div>
+            </div>
+        <!--핸드폰-->    
+            <div class="container-p">
+                <div class="phone">
+                    <select name="phone-country">
+                        <option value="+1(Canada)">+1(Canada)</option>
+                        <option value="+82(Korea)">+82(Korea)</option>
+                    </select>
+                </div>    
+                <div class="number">
+                    <input type="text" class="number" placeholder="phone number">
+                </div>
+                <div class="numberaccess">
+                    Make sure you enter a phone number you can always access. It will be used to verify your identity any time you sign in on a new device or web browser. Messaging or data rates may apply.
+                </div>
+                <div class="verify-form">
+                    <label for="verify-type">Verify With a:</label>
+                    <input type="radio" id="textmessage" name="textmessage" value="Text message">
+                    <label for="textmessage" class="radio-label">Text message</label>
+                    <input type="radio" id="phonecall" name="phonecall" value="Phone call">
+                    <label for="phonecall" class="radio-label">Phone call</label>                    
+                </div> 
+            </div>
+        <!--선택-->    
+            <div class="container-c">
+                <div class="check">
+                    <input type="checkbox" id="announcements" name="announcements" value="announcements">
+                        Announcements 
+                    <div class="announcements1"> 
+                        Receive announcements, recommendations and updates about Apple products, services and software.
+                    </div>
+                    <input type="checkbox" id="apps" name="apps">
+                        Apps, music, TV and more 
+                    <div class="announcements2"> 
+                        Receive new releases, exclusive content, special offers and recommendations for apps, music, movies, TV, books, podcasts, Apple Pay and more.
+                    </div>
+                    <input type="checkbox" id="news" name="news">
+                        Apple News newsletter 
+                    <div class="announcements3"> 
+                        The best stories, picked by the Apple News editors, delivered directly to your inbox. 
+                    </div>
+                </div>
+        <!--code맞추기-->        
+            <div class="code">
+            </div>
+        <!--end-->
+            <div class="container-i">
+                <div class="IDinformation">
+                    Your Apple ID information is used to allow you to sign in securely and access your data. Apple records certain usage data for security, support and reporting purposes.
+                    <a href="https://www.w3.org/TR/html5/" target="_blank" title="find speicification">See how your data is managed. </a>                    </div>
+                <button class="continue">continue</button>
+            </div>    
+        </div> 
+    </section>
